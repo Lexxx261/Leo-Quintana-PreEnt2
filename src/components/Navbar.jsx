@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from '/images/logo-emm.png';
 
 const Navbar = () => {
   return (
