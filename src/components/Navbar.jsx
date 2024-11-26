@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 import "bootstrap/dist/css/bootstrap.min.css";
+import logo from '../../public/images/logo-emm.png';
 
 const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ const Navbar = () => {
       <div className="container">
         <Link className="navbar-brand" to="/">
           <img
-            src="../../public/images/logo-emm.png"
+            src={logo}
             alt="Logo"
             width="120"
             height="120"
